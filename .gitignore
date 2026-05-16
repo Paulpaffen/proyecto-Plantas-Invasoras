@@ -1,0 +1,40 @@
+# ===== Datasets (muy pesados, no van a Git) =====
+Plantas.coco/
+Plantas.yolov8-obb/
+Plantas.yolov8-obb.zip
+dataset/
+Entrenamiento IyV/
+
+# ===== Pesos de modelos =====
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ===== Comprimidos =====
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ===== Resultados de entrenamiento =====
+runs/
+inferencia.jpg
+events.out.tfevents.*
+
+# ===== Scripts viejos sueltos (el flujo oficial es el notebook) =====
+*.py
+
+# ===== Caches / venv / IDE =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude
