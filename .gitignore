@@ -1,7 +1,21 @@
-# ===== Datasets (muy pesados, no van a Git) =====
+# ============================================================
+# POLITICA: este repo versiona SOLO el entrenamiento y los .md
+# de setup/ejecucion. Se versiona:
+#   - entrenamiento_plantas.ipynb   (el entrenamiento)
+#   - README.md, SETUP.md, EXPERIMENTOS.md
+#   - split_manifest.json           (split compartido, reproducibilidad)
+#   - .gitignore
+# Todo lo demas se ignora.
+# ============================================================
+
+# ===== Datasets (muy pesados) =====
+NuevasPlantas2.coco/
+NuevasPlantas2.yolov8/
+data_rfdetr/
+data_rtdetr/
 Plantas.coco/
 Plantas.yolov8-obb/
-Plantas.yolov8-obb.zip
+Plantas.negativos/
 dataset/
 Entrenamiento IyV/
 
@@ -18,19 +32,34 @@ Entrenamiento IyV/
 *.7z
 *.rar
 
-# ===== Resultados de entrenamiento =====
+# ===== Resultados de entrenamiento / inferencia =====
 runs/
-inferencia.jpg
 events.out.tfevents.*
+*.jpg
+*.jpeg
+*.png
 
-# ===== Scripts viejos sueltos (el flujo oficial es el notebook) =====
+# ===== Scripts (el flujo que se versiona es el notebook) =====
 *.py
+
+# ===== Web app (se comparte aparte, no se versiona) =====
+webapp/
+cloudflared.exe
+
+# ===== Documentos NO versionados =====
+ARQUITECTURA.md
+NEGATIVOS.md
+CLAUDE.md
+contexto_proyecto_plantas_invasoras.md
+guion_entrenamiento.txt
+*.code-workspace
 
 # ===== Caches / venv / IDE =====
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+.venv-rocm/
 venv/
 .env
 .vscode/
