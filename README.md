@@ -14,8 +14,8 @@ localizar** automáticamente 4 especies invasoras en una foto:
 - Helecho de agua
 - Retamo espinoso
 
-El objetivo es **comparar de forma justa** tres arquitecturas de detección
-—**RT-DETR**, **RF-DETR** y **YOLO**— entrenadas sobre el mismo conjunto de datos
+El objetivo es **comparar de forma justa** dos arquitecturas de detección
+—**RT-DETR** y **RF-DETR**— entrenadas sobre el mismo conjunto de datos
 y evaluadas sobre las mismas imágenes, para determinar cuál funciona mejor en este
 caso real.
 
