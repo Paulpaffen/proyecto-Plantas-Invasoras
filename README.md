@@ -1,6 +1,6 @@
 # Detección de plantas invasoras 🌿
 
-Proyecto universitario de visión por computador para **detectar especies de plantas
+Proyecto universitario para **detectar especies de plantas
 invasoras en Cundinamarca, Colombia** a partir de imágenes.
 
 ## Propósito
